@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#todo-input {
+  width: 80%;
+}
+#add-btn {
+  background-color: green;
+  color: white;
+}
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  min-width: 700px;
+  height: 400px;
+  background-color: #ccc;
+  padding: 30px;
+}
+.counters {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.containerJS {
+  display: flex;
+  margin-top: 20px;
+}
+.titleTask {
+  display: flex;
+  list-style: none;
+}
+.titleTask li {
+  margin-left: 30px;
+}
+#todo-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.liTitle {
+  margin-left: 100px;
+}
+.liTitle1 {
+  margin-left: 40px;
+}
+.liTask {
+  list-style: none;
+}
+.deleteBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: red;
+  font-size: 10px;
+}
+.script {
+  border: 4px red solid;
+}

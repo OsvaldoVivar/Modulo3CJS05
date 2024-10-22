@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio 6 Todo LIST</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <main class="todo-container">
+      <h1>ToDo List</h1>
+      <hr />
+
+      <div class="input-section">
+        <input type="text" id="todo-input" placeholder="Agregar tarea" />
+        <button id="add-btn">Agregar</button>
+      </div>
+      <div class="containerJS">
+        <div class="counters">
+          <span>Total: <span id="total-task">0</span></span>
+          <span>Completadas: <span id="completed-task">0</span></span>
+          <span>Pendientes: <span id="pending-task">0</span></span>
+        </div>
+        <div class="script">
+          <div class="titleTask">
+            <p class="liTitle1">ID</p>
+            <p class="liTitle">Tareas</p>
+          </div>
+
+          <div id="todo-list">
+            <!-- este va a ser el lugar que recibe -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./assets/js/scripts.js"></script>
+  </body>
+</html>
